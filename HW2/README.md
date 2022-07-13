@@ -8,7 +8,7 @@
 
 5e -
 
-5f -
+5f - 92/92 testcases passed
 
 5g - 16/16 testcases passed
 
