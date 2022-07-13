@@ -1,4 +1,4 @@
-5a -
+5a - 59/59 testcases passed
 
 5b -
 
