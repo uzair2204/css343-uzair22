@@ -11,16 +11,27 @@
  */
 class Solution {
 public:
+    
+    //Main function
     void flatten(TreeNode* root) {
         TreeNode* next = nullptr;
         flatten(root, next);
     }
+    
+    //Helper function
     TreeNode* flatten(TreeNode* root, TreeNode* next) {
+        //Checking to see if root is present
         if (root) {
+            
+            //Recursive calls
             next = flatten(root->right, next);
             next = flatten(root->left, next);
+            
+            //Root's right node becomes next
             root->right = next;
+            //Root's left node becomes null
             root->left = nullptr;
+          
             return root;
         }
         return next;
