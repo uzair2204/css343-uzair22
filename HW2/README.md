@@ -1,6 +1,6 @@
 5a - 59/59 testcases passed
 
-5b -
+5b - 225/225 testcases passed
 
 5c - 202/202 testcases passed
 
