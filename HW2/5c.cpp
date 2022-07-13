@@ -19,9 +19,13 @@ public:
         }
         return root;
     }
+    //Overloaded method 
     TreeNode* buildTree(vector<int>& inorder, vector<int>& postorder, int start, int end, int& p) {
+        //If starting point is smaller than or equal to ending point
         if (start <= end) {
+           
             TreeNode* node = new TreeNode(postorder[p--]);
+            //
             if (start == end) {
                 return node;
             }
