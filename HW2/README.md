@@ -6,7 +6,7 @@
 
 5d - 80/80 testcases passed
 
-5e -
+5e - 35/35 testcases passed
 
 5f - 92/92 testcases passed
 
