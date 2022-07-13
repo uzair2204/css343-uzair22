@@ -12,14 +12,19 @@
 class Solution {
 public:
     TreeNode* insertIntoBST(TreeNode* root, int val) {
+        //If root is present
         if (root) {
+            //If value to be inserted is less than root 
             if (val < root->val) {
+                //Recursive call to get root's left node
                 root->left = insertIntoBST(root->left, val);
             } 
             else {
+                //Recursive call to get root's right node
                 root->right = insertIntoBST(root->right, val);
             }
         }
+        //If root is not present 
         else {
             root = new TreeNode(val);
         }
