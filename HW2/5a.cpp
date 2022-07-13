@@ -19,17 +19,24 @@ public:
 
 class Solution {
 public:
+    
+    //Main function
     Node* connect(Node* root) {
         connect_helper(root);
         return root;
     }
-
+    
+    //Helper function taking root node as an argument
     void connect_helper(Node* root) {
+        //Checking to see if there is a root and it's left child is present
         if (root && root->left) {
+            //Checking if the root doesn't point towards a null pointer 
             if (root->next != nullptr) {
+                //Setting root's next right to root's next left 
                 root->right->next = root->next->left;
             }
             root->left->next = root->right;
+            //Recursive calls 
             connect_helper(root->left);
             connect_helper(root->right);
         }
