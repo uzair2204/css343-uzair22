@@ -2,7 +2,7 @@
 
 5b -
 
-5c -
+5c - 202/202 testcases passed
 
 5d - 80/80 testcases passed
 
