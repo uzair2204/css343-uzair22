@@ -1,6 +1,7 @@
 class Solution {
 public:
     vector<vector<int>> kClosest(vector<vector<int>>& points, int k) {
+        //Min Heap Construction
         vector<vector<int>> v;
         for (int s = points.size() / 2 - 1; s >= 0; s--) {
             int i = s;
@@ -19,6 +20,8 @@ public:
                 i = min;
             }
         }
+        
+        //Removing shortest points from the heap 
         while (points.size() > 0 && k > 0) {
             vector<int> minPoint = points[0];
             points[0] = points[points.size() - 1];
@@ -43,6 +46,8 @@ public:
         }
         return v;
     }
+    
+    //Compare distance of points passed as argument
     double dist(vector<int>& v) {
         return sqrt(v[0] * v[0] + v[1] * v[1]);
     }
