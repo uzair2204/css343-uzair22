@@ -7,3 +7,7 @@
 3d - / testcases passed
 
 3e - / testcases passed
+
+3f - / testcases passed
+
+3g - / testcases passed
