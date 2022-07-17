@@ -1,4 +1,4 @@
-3a - / testcases passed
+3a - 22/22 testcases passed (Leetcode problem 133)
 
 3b - / testcases passed
 
