@@ -10,4 +10,4 @@
 
 3f - 21/21 testcases passed (Leetcode problem 295)
 
-3g - / testcases passed (Leetcode problem 210)
+3g - 45/45 testcases passed (Leetcode problem 210)
