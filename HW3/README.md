@@ -8,6 +8,6 @@
 
 3e - 53/53 testcases passed (Leetcode problem 743)
 
-3f - / testcases passed (Leetcode problem 295)
+3f - 21/21 testcases passed (Leetcode problem 295)
 
 3g - / testcases passed (Leetcode problem 210)
