@@ -2,7 +2,7 @@
 
 3b - 49/49 testcases passed (Leetcode problem 200)
 
-3c - / testcases passed (Leetcode problem 934)
+3c - 97/97 testcases passed (Leetcode problem 934)
 
 3d - 83/83 testcases passed (Leetcode problem 79)
 
